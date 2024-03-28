@@ -340,8 +340,10 @@ const Page = () => {
               <option selected disabled>
                 Min
               </option>
-              {numArr.map((item) => (
-                <option>{item}</option>
+              {numArr.map((item, index) => (
+                <div key={index}>
+                  <option>{item}</option>
+                </div>
               ))}
             </select>
             <select
@@ -352,8 +354,10 @@ const Page = () => {
               <option selected disabled>
                 Max
               </option>
-              {numArr.map((item) => (
-                <option>{item}</option>
+              {numArr.map((item, index) => (
+                <div key={index}>
+                  <option>{item}</option>
+                </div>
               ))}
             </select>
           </div>
