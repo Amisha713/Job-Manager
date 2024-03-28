@@ -240,6 +240,7 @@ const Page = () => {
         {/* <div>{jobArr.length}</div> */}
         {jobArr.map((items, index) => (
           <div
+            key={index}
             className="border h-fit p-2 border-r-white bg-gray-200"
             onClick={() => updateStateValues(index)}
           >
