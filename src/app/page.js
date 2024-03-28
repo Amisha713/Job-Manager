@@ -5,7 +5,7 @@ import { FaTrashAlt } from "react-icons/fa";
 import { ImCopy } from "react-icons/im";
 import { FaSearch } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
   const [selectedFields, setselectedFields] = useState([
     // "Is Remote",
     // "5 Day week",
@@ -646,4 +646,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
